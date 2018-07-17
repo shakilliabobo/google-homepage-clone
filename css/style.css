@@ -1,0 +1,133 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+/* CSS Document */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    font-size:15px;
+    font-weight:300;
+}
+.left-menu {
+    float: left;
+}
+.left-menu > ul > li {
+  display:inline-block;
+  float:left;
+  list-style-type:none;
+  margin: 10px;
+}
+
+.right-menu > ul > li {
+  display:inline-block;
+  float:left;
+  list-style-type:none;
+  margin: 10px;
+}
+.right-menu {
+    float: right;
+}
+
+.main-content {
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.time-to-search{
+  text-align: center;
+    width: 585px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+}
+
+img.google-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 287px;
+}
+
+.search-bar{
+      display: block;
+      margin: 0 auto;
+}
+
+.search-bar {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 13px 0px;
+    width: 600px;
+    border: 1px solid #dad9d9;
+}
+
+.menu-button {
+    max-width: 11px;
+    width: 100%;
+}
+
+.notification-bell {
+    max-width: 24px;
+    width: 100%;
+}
+
+.profile-user {
+    width: 100%;
+    max-width: 24px;
+}
+
+.mini-menu{
+  position:relative;
+  top:30%;
+}
+
+.mini-menu ul > li {
+  list-style-type:none;
+  display:inline-block;
+  margin: 10px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    background: #efefef;
+    border-top: 1px solid #e8e8e8;
+    color: #929292;
+    font-size: 15px;
+}
+
+footer ul {
+  margin-top: 5px;
+}
+
+footer ul > li {
+  list-style-type:none;
+  display:inline-block;
+  margin: 10px;
+}
+
+.left-footer-menu{
+  float:left;
+}
+
+.right-footer-menu{
+  float:right;
+}
